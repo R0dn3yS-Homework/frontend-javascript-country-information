@@ -16,7 +16,7 @@ img {
 }
 
 .europe {
-  color: yellow;
+  color: #ff0;
 }
 
 .asia {
@@ -28,7 +28,7 @@ img {
 }
 
 .africa {
-  color: blue;
+  color: #00f;
 }
 
 .americas {
@@ -38,3 +38,5 @@ img {
 .antarctic {
   color: orange;
 }
+
+/*# sourceMappingURL=index.4d663569.css.map */
