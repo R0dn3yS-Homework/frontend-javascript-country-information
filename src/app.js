@@ -15,7 +15,11 @@ async function addCountries() {
   countryList.forEach((country) => {
     const item = document.createElement('li');
 
-    item.innerHTML = `<p class="countryHeader ${country.region.toLowerCase()}">${country.flag} ${country.name.common}</p><br /><p class="countryPopulation">Has a population of ${country.population} people.</p><br/>`;
+    item.innerHTML = `
+      <p class="countryHeader ${country.region.toLowerCase()}">${country.flag} ${country.name.common}</p>
+      <br />
+      <p class="countryPopulation">Has a population of ${country.population} people.</p>
+      <br/>`;
 
     list.appendChild(item);
   });
